@@ -1,0 +1,130 @@
+body {
+    background-color: rgb(16, 15, 19) !important;
+    color: white !important;
+    margin: 20px;
+}
+
+#info {
+    float: left;
+    width: 20%;
+}
+
+#episodewatch {
+    float: right;
+    width: 80%;
+}
+
+#episodesw {
+    clear: both;
+}
+
+#footerr {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+
+#yes svg {
+    vertical-align: middle;
+}
+
+#yes1 svg {
+    vertical-align: middle;
+}
+
+#yes {
+    display: inline-block;
+    border-radius: 20px;
+    border: 0px;
+    cursor: pointer;
+    background-color: #009dff;
+}
+
+#yes a {
+    color: white;
+}
+
+#yes1 {
+    display: inline-block;
+    border-radius: 20px;
+    border: 0px;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+#yes1 a {
+    color: rgb(0, 0, 0);
+}
+
+#episodew {
+    margin-left: 310px;
+    white-space: pre-wrap;
+}
+
+.iepisode {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border: 1px solid white;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+
+#iepisode a {
+    color: white;
+}
+
+#info a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.iepisode:hover {
+    border-color: #009dff;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    #info,
+    #episodewatch,
+    #episodesw {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    iframe {
+        width: 350px;
+        height: 500px;
+    }
+
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #info {
+        margin-top: 20px;
+    }
+}
+
+.navbar-class {
+    margin-bottom: 20px;
+}
+
+
+#footerr a:hover {
+    color: white;
+}

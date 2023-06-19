@@ -1,0 +1,81 @@
+body{
+background-color: rgb(16, 15, 19)!important;
+color: white!important;  
+margin: 20px;
+display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+}
+
+#sidebar {
+float: left;
+width: 20%;
+}
+
+#synopsis {
+float: right;
+width: 80%;
+}
+
+#footerr {
+text-align: center;
+justify-content: center;
+display: flex;
+align-items: flex-end;
+width: 100%;
+}
+
+#footerr a:hover {
+    color: white;
+}
+
+#yes svg {
+    vertical-align: middle;
+}
+
+#yes1 svg {
+    vertical-align: middle;
+}
+
+#yes {
+display: inline-block;
+border-radius: 20px;
+border: 0px;
+cursor: pointer;
+background-color: #009dff;
+}
+
+#yes a {
+color: white;
+}
+
+#yes:hover {
+box-shadow: 0 0 10px #009dff;
+}
+
+
+#yes1{
+display:inline-block;
+border-radius: 20px;
+border: 0px;
+cursor: pointer;
+background-color: #ffffff;
+}
+#yes1 a {
+color: rgb(0, 0, 0);
+}
+
+#yes1:hover {
+box-shadow: 0 0 10px #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+#sidebar, #synopsis {
+width: 90%;
+margin: 0 auto;
+text-align: center;
+}
+}
+.navbar-class {
+margin-bottom: 20px;
+}
